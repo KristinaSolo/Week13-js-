@@ -1,4 +1,4 @@
 function hello (){
     let name = document.querySelector('#name').value;
-    document.querySelector('.sayhi').value=`Привет, ${name}!`
+    document.querySelector('.hi').value=`Привет, ${name}!`
     }
