@@ -9,7 +9,7 @@
     <style>
         .btn {
             height: 50px;
-            width: 200px;
+            width: 100px;
             border-radius: 10px;
             background-color: rgb(168, 118, 118);
             color: azure;
@@ -20,7 +20,19 @@
 </head>
 
 <body>
-    <button class="btn" onclick="alert('Меня зовут Кристина')">Как ваше имя</button>
+    <div>
+        <label>Name:
+            <input type="text" name="name" id="name" value="Кристина">
+        </label>
+    </div>
+    <div>
+        <button class="btn" onclick="hello()">Нажми меня</button>
+    </div>
+    <input type="text" name="sayhi" class="sayhi" value="">
+
+    <script src="./html.js">
+
+    </script>
 </body>
 
 </html>
